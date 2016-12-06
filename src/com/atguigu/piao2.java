@@ -20,6 +20,7 @@ static  piao2 p = new piao2();
 		
 		for (int i = 0; i < 1000; i++) {
 			System.out.println(Thread.currentThread().getName()+"|"+ ++num);
+			System.out.println();
 		}
 	
 		
